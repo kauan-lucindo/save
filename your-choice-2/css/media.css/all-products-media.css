@@ -1,0 +1,35 @@
+@media (max-width:800px){
+
+    .row-2 h2{
+
+        padding-bottom: 10px;
+
+    }
+
+    select{
+
+        font-size: 18px;
+
+    }
+
+    .media-p{
+
+        padding-right: 10px;
+
+    }
+
+    .row-2{
+
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+
+    }
+
+    .footer-col-3 h3{
+
+        width: 300px;
+
+    }
+
+}

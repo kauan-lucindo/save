@@ -1,0 +1,18 @@
+@media (max-width:800px){
+
+    .container{
+
+        z-index: auto;
+        padding: 0;    
+    }
+
+
+    .media-p{
+
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+    
+
+}

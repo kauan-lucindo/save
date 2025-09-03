@@ -1,0 +1,28 @@
+.viw-more-pd:hover{
+
+    transition: 0.2s;
+
+    color: #8713B6;
+
+}
+
+.slect-pd{
+
+    user-select: contain;
+
+}
+
+.small-container-au{
+
+    max-width: 975px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.p-description-pd4{
+
+    width: 650px;
+
+}

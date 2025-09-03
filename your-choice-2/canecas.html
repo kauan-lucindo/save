@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Your Choice</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="img-your-choice/icon-site-3_resized.ico" type="image/x-icon">
+    <link rel="stylesheet" href="media.css/all-products-media.css">
+
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+               <a href="index.php"><img id="logo-navbar" src="img-your-choice/logo_your_choice_sf.png"
+                            width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a id="home" href="index.php">Home</a></li>
+                    <li><a id="product-navbar" href="products.html">Produtos</a></li>
+                    <li><a id="about" href="about-us.html">Sobre nós</a></li>
+                    <li><a id="contact" href="contact.html">Contato</a></li>
+                    <!-- <li><a id="acount" href="accountpage.php">Conta</a></li> -->
+                </ul>
+            </nav>
+            <img src="img-your-choice/menu.png" class="menu-icon" onclick="menutoggle()">
+            <a href="cart.php"><img class="cart" src="img-your-choice/cart.png" width="30px" height="30px"></a>
+        </div>
+    </div>
+
+    <div class="small-container">
+
+        <div class="row row-2">
+            <h2>Canecas</h2>
+            <select id="sortSelect">
+                <option selected>Selecione uma opção</option>
+                <option value="products.html">Todos</option>
+                <option value="camisetas-prontas.html">Camisetas-prontas</option>
+            </select>
+        </div>
+
+
+        <div class="row">
+            <div class="col-4">
+                <a href="productdetail5.html">
+                    <img src="img caneca/img-caneca1-product-page.png">
+                    <h4>Cê Não Gosta de Café?</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>$50.00</p>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="productdetail6.html">
+                    <img src="img caneca/img-caneca2-product-page.png">
+                    <h4>Caneca - Ursos Sem Curso</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>$50.00</p>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="productdetail7.html">
+                    <img src="img caneca/img-caneca3-prudct-page.png">
+                    <h4>Caneca - Luffy Chibi</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>$50.00</p>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="productdetail8.html">
+                    <img src="img caneca/img-caneca4-prudct-page.png">
+                    <h4>Caneca – Edição Especial</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>$50.00</p>
+                </a>
+            </div>
+        </div>
+
+
+
+        <!-- <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div> -->
+
+    </div>
+
+
+
+    <!--------------------------------------footer---------------------------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-2">
+                    <img class="logo-footer" src="img-your-choice/logo-your_choice.png">
+                </div>
+
+
+                <div class="footer-col-3">
+                    <h3>Nos siga</h3>
+                    <ul>
+                        <a class="rediricionamento" href="">
+                            <li>Whatsapp</li>
+                        </a>
+                         <a class="rediricionamento" target="_blank" href="https://www.instagram.com/_yourchoicestore/">
+                            <li>Instagram</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2025 - Your Choice store</p>
+        </div>
+    </div>
+
+    <!-------------------------js for toggle menu------------------->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems")
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            } else {
+                MenuItems.style.maxHeight = "0px";
+
+            }
+
+
+        }
+    </script>
+
+    <!-- Fazer o select redirecionar  -->
+    <script>
+        document.getElementById('sortSelect').addEventListener('change', function () {
+            const selectedPage = this.value;
+            if (selectedPage) {
+                window.location.href = selectedPage;
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>

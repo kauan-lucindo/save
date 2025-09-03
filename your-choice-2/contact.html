@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contate-nos</title>
+
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="img-your-choice/icon-site-3_resized.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/media.css/contact-media.css">
+</head>
+
+
+
+
+
+
+
+<body>
+
+    <!-- header -->
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+               <a href="index.php"><img src="img-your-choice/logo_your_choice_sf.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a id="home" href="index.php">Home</a></li>
+                    <li><a id="product-navbar" href="products.html">Produtos</a></li>
+                    <li><a id="about" href="about-us.html">Sobre nós</a></li>
+                    <li><a id="contact" href="contact.html">Contato</a></li>
+                    <!-- <li><a id="acount" href="accountpage.php">Conta</a></li> -->
+                </ul>
+            </nav>
+            <img src="img-your-choice/menu.png" class="menu-icon" onclick="menutoggle()">
+            <a href="cart.php"><img class="cart" src="img-your-choice/cart.png" width="30px" height="30px"></a>
+        </div>
+    </div>
+
+    <!-- body -->
+
+    <div class="collum">
+
+        <div class="contact-work-us-box">
+            <span onclick="contact(contactAndWorkUs)" class="contact">Contate-nos</span>
+            <span onclick="workWithUs(contactAndWorkUs)" class="work-us">Trabalhe conosco</span>
+        </div>
+
+        <div class="cor">
+            <div class="overflow">
+            
+                <div id="contactAndWorkUs">
+                    <div class="conteiner-main">
+                        <div class="conteiner-contact">
+                            <div class="aling-info">
+                                <div class="conteiner-inputs">
+                                    <input type="text" name="" id="name" placeholder="Nome">
+                                    <input type="email" name="" id="email" placeholder="Email">
+                                    <input type="tel" name="" id="tel" placeholder="Telefone" maxlength="15">
+                                    <input type="date" name="" id="date" placeholder="Data de nascimento">
+                                    <textarea class="textarea" name="mensage" id="" placeholder="Mensagem"></textarea>
+                                    <button class="btn-enviar">Enviar</button>
+                                </div>
+                                <div class="info-contact">
+                                    <div class="box-info-contact">
+                                        <h1 class="h3-info-a">Contato e informações</h1>
+                                        <div class="box-info-info-main">
+                                            <div class="box-info-info-locate">
+                                                <img class="img-contact" src="img-your-choice/contact-locate.png" alt="">
+                                                <p class="p-info-contact-locate"> Avenida Paulista, 1200 São Paulo | SP</p>
+                                            </div>
+                                            <div class="box-info-info">
+                                                <img class="img-contact" src="img-your-choice/contact-tel.png" alt="">
+                                                <p class="p-info-contact">(11)99188-8247</p>
+                                            </div>
+                                        </div>
+                                        <div class="box-info-time">
+                                            <h1 class="h3-info-b">Horário de funcionamento</h1>
+                                            <div class="aling-p">
+                                                <img class="img-time" src="img-your-choice/contact-time.png" alt="">
+                                                <p class="p-info-contact-time" >Seg - Sex <br> 9:00 am - 19:00pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="box-icons-contact">
+                                            <a href=""><img class="img-social-midia" src="img-your-choice/contact-whats.png"
+                                                    alt="Whatsapp">
+                                            </a>
+                                            <a href="https://www.instagram.com/_yourchoicestore/" target="_blank"><img class="img-social-midia" src="img-your-choice/cantact-insta.png"
+                                                    alt="Instagram">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conteiner-secundary">
+                        <div id="workForm" class="conteiner-main-au">
+                            <div class="conteiner-contact">
+                                <div class="aling-info">
+                                    <div class="conteiner-inputs">
+                                        <input type="text" name="" id="name" placeholder="Nome">
+                                        <input type="email" name="" id="email" placeholder="Email">
+                                        <input type="tel" name="" id="tel" placeholder="Telefone" maxlength="15">
+                                        <input type="date" name="" id="date">
+                                        <div class="file-upload">
+                                            <label for="arquivo" class="file-upload-label">Envie seu curriculo</label>
+                                            <input type="file" id="arquivo" onchange="mostrarNomeArquivo()" />
+                                            <div id="file-name"></div>
+                                        </div>
+                                        <button class="btn-enviar">Enviar</button>
+                                    </div>
+                                    <div class="info-contact">
+                                        <div class="box-info-contact">
+                                            <h1 class="h3-info-a">Tabalhe conosco</h1>
+                                            <div class="box-info-info-main">
+                                                <div class="box-info-info-locate">
+                                                    <img class="img-contact" src="img-your-choice/contact-locate.png"
+                                                        alt="">
+                                                    <p class="p-info-contact-locate">Avenida Paulista, 1200 São Paulo | SP
+                                                    </p>
+                                                </div>
+                                                <div class="box-info-info">
+                                                    <img class="img-contact" src="img-your-choice/contact-tel.png" alt="">
+                                                    <p class="p-info-contact">(11)99188-8247</p>
+                                                </div>
+                                            </div>
+                                            <div class="box-info-time">
+                                                <h1 class="h3-info-b">Horário de funcionamento</h1>
+                                                <div class="aling-p">
+                                                    <img class="img-time" src="img-your-choice/contact-time.png" alt="">
+                                                    <p class="p-info-contact-time">Seg - Sex <br> 9:00 am - 19:00pm</p>
+                                                </div>
+                                            </div>
+                                            <div class="box-icons-contact">
+                                                <a href=""><img class="img-social-midia"
+                                                        src="img-your-choice/contact-whats.png" alt="Whatsapp">
+                                                </a>
+                                                <a href="https://www.instagram.com/_yourchoicestore/" target="_blank"><img class="img-social-midia"
+                                                        src="img-your-choice/cantact-insta.png" alt="Instagram">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row row-footer">
+
+                <div class="footer-col-2">
+                    <img class="logo-footer" src="img-your-choice/logo-your_choice.png">
+                    <p class="media-p">Sua experiência de <strong>personalização</strong> de um jeito nunca antes visto.
+                    </p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Nos siga</h3>
+                    <ul>
+                        <a class="rediricionamento" href="">
+                            <li>Whatsapp</li>
+                        </a>
+                         <a class="rediricionamento" target="_blank" href="https://www.instagram.com/_yourchoicestore/">
+                            <li>Instagram</li>
+                        </a>
+                    </ul>
+                </div>
+
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2025 - Your Choice store</p>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    const input = document.getElementById("tel");
+
+    input.addEventListener("input", function (e) {
+        const isDeleting = e.inputType === "deleteContentBackward";
+
+        let value = input.value.replace(/\D/g, ""); // remove tudo que não é dígito
+
+        // Se está apagando, só atualiza sem forçar a máscara
+        if (isDeleting) {
+            input.oldValue = value;
+            return;
+        }
+
+        if (value.length > 11) value = value.slice(0, 11);
+
+        if (value.length > 6) {
+            value = value.replace(/(\d{2})(\d{5})(\d{0,4})/, "($1) $2-$3");
+        } else if (value.length > 2) {
+            value = value.replace(/(\d{2})(\d{0,5})/, "($1) $2");
+        } else {
+            value = value.replace(/(\d{0,2})/, "($1");
+        }
+
+        input.value = value;
+        input.oldValue = value;
+    });
+</script>
+
+<script>
+    function mostrarNomeArquivo() {
+        const input = document.getElementById('arquivo');
+        const fileName = input.files.length > 0 ? input.files[0].name : "Nenhum arquivo selecionado";
+        document.getElementById('file-name').textContent = fileName;
+    }
+</script>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px"
+        } else {
+            MenuItems.style.maxHeight = "0px";
+
+        }
+
+
+    }
+</script>
+
+<script>
+    function contact(contact) {
+        contact.style.transform = "translateX(0px)";
+    }
+
+    function workWithUs(work) {
+        // Verifica se a largura da tela é menor que 800px
+        if (window.innerWidth < 850) {
+            work.style.transform = "translateX(-535px)"; // Valor para telas menores que 800px
+        } else {
+            work.style.transform = "translateX(-600px)"; // Valor para telas maiores ou iguais a 800px
+        }
+    }
+
+    // Ouvinte de evento para redimensionamento da janela
+    window.addEventListener('resize', function () {
+        const work = document.querySelector('.work'); // Altere para o seletor correto
+        workWithUs(work);
+    });
+</script>
+
+</html>

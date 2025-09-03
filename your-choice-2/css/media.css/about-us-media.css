@@ -1,0 +1,90 @@
+@media (max-width:800px) {
+
+
+
+
+
+    #h1-ab {
+
+        font-size: 25px;
+
+    }
+
+
+    .h1-h{
+
+        width: auto;
+    }
+
+    .p-h{
+
+        width: 300px;
+    
+    }
+
+    .h1-a{
+
+        width: auto;
+        
+
+    }
+
+    .p-a{
+
+        width: 300px;
+
+    }
+
+    .titulo-avaliacoes {
+        
+        text-align: center;
+
+    }
+
+}
+
+@media (max-width:800px) {
+
+    nav ul {
+        
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: #fff;
+        width: 100%;
+        overflow: hidden;
+        transition: 0.5s;
+        z-index: 9999;
+    }
+  
+  
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  
+    nav ul li a {
+        color: #b84ae4;
+  
+    }
+  
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    #MenuItems{
+
+        z-index: auto;
+        padding: 0;    
+
+    }
+
+    .container{
+
+        padding: 0;
+
+    }
+}

@@ -1,0 +1,66 @@
+@media (max-width:800px) {
+
+   .col-2 img {
+
+      padding: 0;
+
+   }
+
+   .col-2 .offer-img {
+
+      padding: 0px;
+
+   }
+
+   .col-2 h1 {
+
+      font-size: 35px;
+
+   }
+
+   .after1::after,
+   .after2::after,
+   .after3::after {
+
+      opacity: 1;
+
+   }
+
+   .after3 {
+
+      text-align: center;
+
+   }
+
+}
+
+@media (max-width:800px) {
+
+   nav ul {
+
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background: #fff;
+      overflow: hidden;
+      transition: 0.5s;
+      z-index: 20;
+   }
+
+
+
+
+   #MenuItems {
+
+      position: fixed;
+
+   }
+
+   .container {
+
+      padding: 0;
+
+   }
+
+}
+

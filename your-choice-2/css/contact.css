@@ -1,0 +1,357 @@
+/* predefinições */
+.p {
+
+    color: black;
+
+}
+
+.collum {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aling-info {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 30px;
+
+}
+
+/* config box */
+
+.contact {
+
+    padding: 0px 5px 0px 5px;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+.work-us {
+
+    padding: 0px 5px 0px 5px;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+.contact:hover {
+
+    background-color: #B445FE;
+    color: #fff;
+    transition: 0.3s ease;
+    border-radius: 5px;
+
+}
+
+.work-us:hover {
+
+    background-color: #B445FE;
+    color: #fff;
+    transition: 0.3s ease;
+    border-radius: 5px;
+
+}
+
+.aling-p {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+.seila {
+
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    background-color: #fff;
+
+}
+
+
+
+
+
+.conteiner-contact {
+
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+.conteiner-inputs {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+/* inicio da estilização */
+
+
+/* personalização dos inputs */
+
+#name,
+#email,
+#tel,
+#date {
+
+    width: 200px;
+    height: 44px;
+
+    border: solid #B445FE;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.textarea {
+
+    width: 200px;
+    height: 120px;
+
+    border: solid #B445FE;
+    border-radius: 5px;
+    padding: 10px;
+
+    resize: none;
+
+}
+
+.textarea:focus {
+
+    outline: none;
+
+}
+
+.btn-enviar {
+
+    background: none #B445FE;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.btn-enviar:hover {
+
+    transform: translateY(-1.5px);
+    transition: 0.3s ease;
+    background-color: #9036cc;
+
+
+}
+
+.box-info-contact {
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.contact-work-us-box {
+
+    display: flex;
+    gap: 60px;
+    margin: 40px 0px 10px 0px;
+
+}
+
+/* personalização da info-contact */
+
+.h3-info-a {
+
+    margin-top: 8px;
+    font-size: 20px;
+
+}
+
+.h3-info-b {
+
+    font-size: 15px;
+
+
+}
+
+.p-info {
+
+    font-size: 15px;
+
+}
+
+.box-info-info-main {
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.box-info-info {
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+
+}
+
+.box-info-info-locate {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.box-icons-contact {
+
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.img-contact {
+
+    width: 40px;
+
+}
+
+.box-info-time {
+
+    margin-top: 25px;
+
+}
+
+.img-social-midia {
+
+    width: 27px;
+
+}
+
+.img-time {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+.info-contact {
+
+    width: 250px;
+
+}
+
+.p-info-contact {
+
+    font-size: 15px;
+
+}
+
+.p-info-contact-time {
+
+    font-family: 15px;
+
+}
+
+.img-social-midia:hover {
+
+    transform: rotate(7deg) scale(1.2);
+    transition: 0.3s ease;
+}
+
+/* inico do deslocamento */
+
+#contactAndWorkUs {
+
+    display: flex;
+    flex-direction: row;
+    transition: 1s ease;
+    gap: 120px;
+
+}
+
+.overflow {
+    padding: 20px;
+    display: flex;
+    gap: 120px;
+    width: 515px;
+    height: 480px;
+    overflow: hidden;
+    align-items: center;
+    border: solid 3px #B445FE;
+    border-radius: 30px;
+
+    margin:30px;
+
+    background-color: #fff;
+}
+
+
+.file-upload {
+    position: relative;
+    display: inline-block;
+}
+
+.file-upload input[type="file"] {
+    display: none;
+    /* esconde o input original */
+}
+
+.file-upload-label {
+    background-color: #B445FE;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 6px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.file-upload-label:hover {
+    background-color: #9036cc;
+}
+
+#file-name {
+    margin-top: 10px;
+    font-style: 'Poppins', sans-serif;
+}
+
+.collum{
+    background: radial-gradient(circle at 75% 60%, #fefcff, #b945e7);
+    background: radial-gradient(circle 1200px at center, #ffffff,  #b945e7);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+
+}
+
+/* .collum{
+
+     background: radial-gradient(#ffffff,  #B445FE);
+
+} */

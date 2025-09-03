@@ -1,0 +1,151 @@
+@media (max-width:800px) {
+
+     nav ul {
+        
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background: #fff;
+        width: 100%;
+        overflow: hidden;
+        transition: 0.5s;
+        z-index: 2;
+    }
+
+
+    /* redimensionamento */
+
+    .container{
+
+        padding: 0;
+
+    }
+
+    .contact-work-us-box {
+
+        width: 360px;
+        margin-top: 30px;
+
+    }
+
+    .contact {
+
+        font-size: 17px;
+        width: 300px;
+        text-align: center;
+        padding: 0;
+
+    }
+
+    .work-us {
+
+        font-size: 17px;
+        width: 350px;
+        text-align: center;
+        padding: 0;
+
+    }
+
+    .overflow {
+
+        width: 350px;
+
+
+    }
+
+
+
+    #name,
+    #email,
+    #tel,
+    #date {
+
+        width: 150px;
+        font-size: 10px;
+
+    }
+
+    .file-upload-label{
+
+        width: 150px;
+
+    }
+
+    .textarea {
+
+        width: 150px;
+
+    }
+
+    .aling-info {
+
+        gap: 16px;
+
+    }
+
+    /* personalizacao das informacoes */
+
+
+    .h3-info-a {
+
+        font-size: 13px
+    }
+
+    .img-contact {
+
+        width: 20px;
+
+    }
+
+    .box-info-info {
+
+        gap: 3px;
+
+    }
+
+    .box-info-info-locate{
+
+        gap: 3px;
+        width: 155px;
+
+    }
+
+    .p-info-contact-locate{
+
+        font-size: 12px;
+
+    }
+
+    .p-info-contact-time{
+
+        font-size: 12px;
+
+    }
+
+    .box-info-info p {
+
+        font-size: 12px;
+
+    }
+
+    .h3-info-b {
+
+        font-size: 11px;
+
+    }
+
+    .img-time {
+
+        width: 25px;
+        height: 25px;
+
+    }
+
+    .p-info {
+
+        font-size: 12px;
+
+    }
+
+    
+}

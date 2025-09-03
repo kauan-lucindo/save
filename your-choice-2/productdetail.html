@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do produto</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/pd.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="img-your-choice/icon-site-3_resized.ico" type="image/x-icon">
+    <script src="js/cart.js"></script>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.php"><img src="img-your-choice/logo_your_choice_sf.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a id="home" href="index.php">Home</a></li>
+                    <li><a id="product-navbar" href="products.html">Produtos</a></li>
+                    <li><a id="about" href="about-us.html">Sobre nós</a></li>
+                    <li><a id="contact" href="contact.html">Contato</a></li>
+                    <!-- <li><a id="acount" href="accountpage.php">Conta</a></li> -->
+                </ul>
+            </nav>
+            <img src="img-your-choice/menu.png" class="menu-icon" onclick="menutoggle()">
+            <a href="cart.php"><img class="cart" src="img-your-choice/cart.png" width="30px" height="30px"></a>
+
+        </div>
+    </div>
+
+    <!----------------------single products details RED SHIRT-------->
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="img camisas/img-prodct-detail/img-camisa1-pd.png" width="100%" id="ProductImg">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="img camisas/img-prodct-detail/img-camisa1-pd.png" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img camisas/img-prodct-detail/img-camisa1-pd2.png" width="100%" class="small-img">
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="col-2">
+                <p><a href="index.php">Home</a> / camiseta</p>
+                <h1>Anatomia Sombria</h1>
+                <h4>$50.00</h4>
+                <select class="slect-pd">
+                    <option>Selecione o tamanho</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                </select>
+                <input class="value-product" type="number" min="1" value="1">
+                <button class="btn cart-btn" onclick="adicionarProduto(this)">Adicionar ao carrinho</button>
+
+                <h3>Detalhe do produto</h3>
+                <p>Camiseta preta estilo oversized com estampa branca em formato de esqueleto
+                    na parte frontal. Confeccionada em tecido confortável.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!---------------------title--------------->
+    <div class="small-container-au">
+        <div class="row row-2">
+            <h2>Produtos relacionados</h2>
+            <a href="products.html">
+                <p class="viw-more-pd">Ver mais</p>
+            </a>
+        </div>
+    </div>
+
+
+
+
+
+    <!---------------------products------------------------------------------->
+
+
+    <div class="small-container">
+
+
+        <div class="row">
+            <div class="col-4">
+                <a href="productdetail2.html">
+                    <img src="img camisas/img-camisa2.jpg">
+                    <h4>Serpente & Rosa</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>$50.00</p>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="productdetail3.html">
+                    <img src="img camisas/img-3_resized-Photoroom.png">
+                    <h4>Amor Sombrio</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>$50.00</p>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="productdetail4.html">
+                    <img src="img camisas/img-camisa-4_resized-Photoroom.png">
+                    <h4>Hamlet: Edição Shakespurr</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>R$50,00</p>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!--------------------------------------footer---------------------------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="footer-col-2">
+                    <img class="logo-footer" src="img-your-choice/logo-your_choice.png">
+                    <p class="media-p">Sua experiência de <strong>personalização</strong> de um jeito nunca antes visto.
+                    </p>
+                </div>
+
+
+
+                <div class="footer-col-3">
+                    <h3>Nos siga</h3>
+                    <ul>
+                        <a class="rediricionamento" href="">
+                            <li>Whatsapp</li>
+                        </a>
+                        <a class="rediricionamento" target="_blank" href="https://www.instagram.com/_yourchoicestore/">
+                            <li>Instagram</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2025 - Your Choice store</p>
+        </div>
+    </div>
+    <!-------------------------js for toggle menu------------------->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems")
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            } else {
+                MenuItems.style.maxHeight = "0px";
+
+            }
+
+
+        }
+    </script>
+
+
+    <!----------------------js for product gallery ------------------->
+
+
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+
+        SmallImg[0].onclick = function () {
+            ProductImg.src = SmallImg[0].src;
+        }
+
+
+        SmallImg[1].onclick = function () {
+            ProductImg.src = SmallImg[1].src;
+        }
+    </script>
+
+
+    <script>
+        // ==================== SISTEMA DE CARRINHO SIMPLES ====================
+
+        let carrinhoItens = [];
+
+        // Função para adicionar produto ao carrinho
+        function adicionarProduto(botao) {
+            const produtoElement = botao.closest('.single-product');
+            const nome = "Anatomia Sombria";
+            const preco = 50.00;
+            const imagem = "img camisas/img-prodct-detail/img-camisa1-pd.png";
+            const tamanho = document.querySelector('.slect-pd').value;
+            const quantidade = parseInt(document.querySelector('.value-product').value);
+            const url = "productdetail.html";
+
+            if (tamanho === "Selecione o tamanho") {
+                alert("Por favor, selecione um tamanho!");
+                return;
+            }
+
+            const idUnico = `Anatomia-Sombria-${tamanho}`;
+            adicionarAoCarrinho(nome, preco, imagem, tamanho, quantidade, idUnico, url);
+        }
+
+        function adicionarAoCarrinho(nome, preco, imagem, tamanho, quantidade, idUnico, url) {
+            carregarCarrinho();
+
+            let itemExistente = carrinhoItens.find(item => item.idUnico === idUnico);
+
+            if (itemExistente) {
+                itemExistente.quantidade += quantidade;
+            } else {
+                carrinhoItens.push({
+                    idUnico: idUnico,
+                    nome: nome,
+                    preco: preco,
+                    imagem: imagem,
+                    tamanho: tamanho,
+                    quantidade: quantidade,
+                    url : url 
+                });
+            }
+
+            salvarCarrinho();
+            alert(`Adicionado ${quantidade} ${nome} tamanho ${tamanho} ao carrinho!`);
+            atualizarContadorCarrinho();
+        }
+
+        function salvarCarrinho() {
+            localStorage.setItem('carrinho', JSON.stringify(carrinhoItens));
+        }
+
+        function carregarCarrinho() {
+            const carrinhoSalvo = localStorage.getItem('carrinho');
+            if (carrinhoSalvo) {
+                carrinhoItens = JSON.parse(carrinhoSalvo);
+            }
+        }
+
+        function atualizarContadorCarrinho() {
+            // Apenas calcula e salva internamente, sem mostrar visualmente
+            const totalItens = carrinhoItens.reduce((total, item) => total + item.quantidade, 0);
+            localStorage.setItem('totalItensCarrinho', totalItens);
+        }
+
+        function removerDoCarrinho(idUnico) {
+            const index = carrinhoItens.findIndex(item => item.idUnico === idUnico);
+            if (index !== -1) {
+                carrinhoItens.splice(index, 1);
+                salvarCarrinho();
+                atualizarContadorCarrinho();
+            }
+        }
+
+        function limparCarrinho() {
+            carrinhoItens = [];
+            salvarCarrinho();
+            atualizarContadorCarrinho();
+        }
+
+        // Carrega o carrinho quando a página abre
+        window.addEventListener('load', function () {
+            carregarCarrinho();
+            atualizarContadorCarrinho();
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
